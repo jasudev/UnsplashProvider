@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": "master",
+          "revision": "6de3f6579bc04e0a769aa39993663e5a131d1c41",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": "master",
+          "revision": "2c53f531f1bedd253f55d85105409c28ed4a922c",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+        "state": {
+          "branch": "master",
+          "revision": "336d3f6d3b53729c1f274bf6b75f4532ada116eb",
+          "version": null
+        }
+      },
+      {
+        "package": "Zoomable",
+        "repositoryURL": "https://github.com/jasudev/Zoomable.git",
+        "state": {
+          "branch": "main",
+          "revision": "896d110d4180e22525ab511fc35965a4c6b91322",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
