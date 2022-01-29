@@ -11,8 +11,16 @@ It is a package that can use the Unsplash API. It was developed as a SwiftUI.
 ## Screenshot
 <img src="Markdown/UnsplashProvider.gif">
 
-## Example Usages
-1. How to use the built-in ObservableObject object
+## Usage
+```swift
+import UnsplashProvider
+```
+```swift
+// You must enter the application access key.
+UPConfiguration.shared.accessKey = "" // <YOUR_ACCESS_KEY>
+```
+
+* How to use the built-in ObservableObject object
     ```swift
     @StateObject var photo = UPPhotoStore()
     @StateObject var photos = UPPhotosStore()
@@ -55,7 +63,7 @@ It is a package that can use the Unsplash API. It was developed as a SwiftUI.
     ```
 
         
-2. How to use Router directly.
+* How to use Router directly.
     ```swift
     let router = UPAPIRouter.randomPhotos(query: "colorful", orientation: .landscape)
     UnsplashProvider().loadPhotos(router: router) { photos, error in
