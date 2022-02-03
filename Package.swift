@@ -16,7 +16,7 @@ let package = Package(
             targets: ["UnsplashProvider"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .branch("master"))
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.4.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
