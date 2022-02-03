@@ -19,9 +19,7 @@
 		4B78D645279CFE8400D806B0 /* RowUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78D641279CFE8400D806B0 /* RowUserView.swift */; };
 		4B78D648279CFE8400D806B0 /* RowPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78D643279CFE8400D806B0 /* RowPhotoView.swift */; };
 		4B78D649279CFE8400D806B0 /* RowPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78D643279CFE8400D806B0 /* RowPhotoView.swift */; };
-		4B78D64C279CFE9B00D806B0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D64B279CFE9B00D806B0 /* Alamofire */; };
 		4B78D64F279CFEAD00D806B0 /* UnsplashProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D64E279CFEAD00D806B0 /* UnsplashProvider */; };
-		4B78D651279CFEAD00D806B0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D650279CFEAD00D806B0 /* Alamofire */; };
 		4B78D653279CFEB500D806B0 /* UnsplashProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D652279CFEB500D806B0 /* UnsplashProvider */; };
 		4B78D656279CFEEF00D806B0 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D655279CFEEF00D806B0 /* SDWebImageSwiftUI */; };
 		4B78D658279CFEFF00D806B0 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4B78D657279CFEFF00D806B0 /* SDWebImageSwiftUI */; };
@@ -49,7 +47,6 @@
 			files = (
 				4B78D656279CFEEF00D806B0 /* SDWebImageSwiftUI in Frameworks */,
 				4B2723CB27A42CAA0044A672 /* Zoomable in Frameworks */,
-				4B78D64C279CFE9B00D806B0 /* Alamofire in Frameworks */,
 				4B78D653279CFEB500D806B0 /* UnsplashProvider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +58,6 @@
 				4B78D658279CFEFF00D806B0 /* SDWebImageSwiftUI in Frameworks */,
 				4B2723CD27A42CF30044A672 /* Zoomable in Frameworks */,
 				4B78D64F279CFEAD00D806B0 /* UnsplashProvider in Frameworks */,
-				4B78D651279CFEAD00D806B0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +145,6 @@
 			);
 			name = "UnsplashProviderExample (iOS)";
 			packageProductDependencies = (
-				4B78D64B279CFE9B00D806B0 /* Alamofire */,
 				4B78D652279CFEB500D806B0 /* UnsplashProvider */,
 				4B78D655279CFEEF00D806B0 /* SDWebImageSwiftUI */,
 				4B2723CA27A42CAA0044A672 /* Zoomable */,
@@ -173,7 +168,6 @@
 			name = "UnsplashProviderExample (macOS)";
 			packageProductDependencies = (
 				4B78D64E279CFEAD00D806B0 /* UnsplashProvider */,
-				4B78D650279CFEAD00D806B0 /* Alamofire */,
 				4B78D657279CFEFF00D806B0 /* SDWebImageSwiftUI */,
 				4B2723CC27A42CF30044A672 /* Zoomable */,
 			);
@@ -209,7 +203,6 @@
 			);
 			mainGroup = 4B78D61B279CFE1F00D806B0;
 			packageReferences = (
-				4B78D64A279CFE9B00D806B0 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				4B78D654279CFEEF00D806B0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				4B2723C927A42CAA0044A672 /* XCRemoteSwiftPackageReference "Zoomable" */,
 			);
@@ -541,14 +534,6 @@
 				kind = branch;
 			};
 		};
-		4B78D64A279CFE9B00D806B0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.5.0;
-			};
-		};
 		4B78D654279CFEEF00D806B0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
@@ -570,19 +555,9 @@
 			package = 4B2723C927A42CAA0044A672 /* XCRemoteSwiftPackageReference "Zoomable" */;
 			productName = Zoomable;
 		};
-		4B78D64B279CFE9B00D806B0 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4B78D64A279CFE9B00D806B0 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		4B78D64E279CFEAD00D806B0 /* UnsplashProvider */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UnsplashProvider;
-		};
-		4B78D650279CFEAD00D806B0 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4B78D64A279CFE9B00D806B0 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
 		};
 		4B78D652279CFEB500D806B0 /* UnsplashProvider */ = {
 			isa = XCSwiftPackageProductDependency;
