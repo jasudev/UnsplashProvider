@@ -9,7 +9,7 @@ It is a package that can use the Unsplash API. It was developed as a SwiftUI.
 [![MIT](https://img.shields.io/badge/licenses-MIT-red.svg)](https://opensource.org/licenses/MIT)  
 
 ## Screenshot
-<img src="Markdown/UnsplashProvider.gif">
+https://user-images.githubusercontent.com/1617304/153021842-cb46588f-69be-4df6-a290-e6d92349bb47.mp4
 
 ## Usage
 ```swift
