@@ -1,4 +1,4 @@
-# **UnsplashProvider**
+# **UnsplashProvider for SwiftUI**
 It is a package that can use the Unsplash API. It was developed as a SwiftUI.
 
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS-blue?style=flat-square)](https://developer.apple.com/macOS)
