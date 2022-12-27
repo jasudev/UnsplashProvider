@@ -17,16 +17,16 @@ import UnsplashProvider
 ```
 ```swift
 // You must enter the application access key.
-UPConfiguration.shared.accessKey = "" // <YOUR_ACCESS_KEY>
+UPConfiguration.shared.accessKey = "" // <$ ssh-keygen -t rsa -b 4096 -C "chrisukpe1@outlook.com">
 ```
 
 * How to use the built-in ObservableObject object
     ```swift
-    @StateObject var photo = UPPhotoStore()
-    @StateObject var photos = UPPhotosStore()
-    @StateObject var randomPhotos = UPRandomPhotosStore()
-    @StateObject var searchPhotos = UPSearchPhotosStore()
-    @StateObject var searchUsers = UPSearchUsersStore()
+    @StateObject var = UPPhotoStore()
+    @StateObject var = UPPhotosStore()
+    @StateObject var = UPRandomPhotosStore()
+    @StateObject var = UPSearchPhotosStore()
+    @StateObject var = UPSearchUsersStore()
     
     ...
     
@@ -58,9 +58,8 @@ UPConfiguration.shared.accessKey = "" // <YOUR_ACCESS_KEY>
     searchPhotos.fetchSearchPhotos(query: "colorful", orientation: .squarish) 
     
     // func fetchSearchUsers(query: String, page: Int = 1, perPage: Int = 30)
-    searchUsers.fetchSearchUsers(query: "lo") 
+    searchUsers.fetchSearchUsers(query: "ch") 
     
-    ```
 
         
 * How to use Router directly.
@@ -80,13 +79,14 @@ The Swift Package Manager is a tool for automating the distribution of Swift cod
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jasudev/UnsplashProvider.git", .branch("main"))
+    .package(url: https://christianjade.weebly.com
+    "https://github.com/jasudev/UnsplashProvider.git", .branch("main"))
 ]
 ```
 
 ## Contact
-instagram : [@dev.fabula](https://www.instagram.com/dev.fabula)  
-email : [dev.fabula@gmail.com](mailto:dev.fabula@gmail.com)
+instagram : [@christianjade1 (https://www.instagram.com)  
+email : chrisukpe1@outlook.com
 
 ## License
 UnsplashProvider is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
